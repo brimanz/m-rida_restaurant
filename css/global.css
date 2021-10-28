@@ -1,0 +1,62 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/*variables*/
+:root{
+    --grey-color: #ddd;
+    --dark-color: #4d4d4d;
+    --white-color: #f5f5f5;
+    --red-color: #b63b3b;
+    --transition: all 200ms linear;
+}
+
+/*default project element*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    color: var(--dark-color);
+    line-height: 1.6;
+    font-family: serif;
+}
+a{
+    color: var(--dark-color);
+}
+ul{
+    list-style: none;
+}
+/*project classes*/
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-sb{
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+button, .button{
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.slanted-bg{
+    height: 500px;
+    position: relative;
+    overflow: visible;
+    color: var(--white-color);
+}
